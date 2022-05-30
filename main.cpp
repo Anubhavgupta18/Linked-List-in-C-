@@ -17,13 +17,13 @@ public:
     }
     ~linked_list()
     {
-        node *t1,*t2;
-        t1=start;
-        while(t1)
+        node *t;
+        t=start;
+        while(start)
         {
-            t2=t1->next;
-            delete t1;
-            t1=t2;
+            start=t->next;
+            delete t;
+            t=start;
         }
     }
     void insert_first(int data)
