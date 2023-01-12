@@ -1,6 +1,3 @@
-// #include<iostream>
-// #include<conio.h>
-// using namespace std;
 class linked_list
 {
 private:
@@ -160,72 +157,3 @@ public:
         }
     }
 };
-
-// void viewListData(linked_list &l);
-// int menu();
-// int main()
-// {
-//     int data,element;
-//     linked_list l;
-//     while(true)
-//     {
-//        system("cls");
-//        viewListData(l);
-//        switch(menu())
-//        {
-//        case 1:
-//         cout<<"Enter data to insert at first:";
-//         cin>>data;
-//         l.insert_first(data);
-//         break;
-//        case 2:
-//         cout<<"Enter data to insert after a element:";
-//         cin>>data;
-//         cout<<"Enter element to after it:";
-//         cin>>element;
-//         l.insert_after(element,data);
-//         break;
-//        case 3:
-//         cout<<"Enter data to insert at last:";
-//         cin>>data;
-//         l.insert_last(data);
-//         break;
-//        case 4:
-//         l.delete_first();
-//         break;
-//        case 5:
-//         cout<<"Enter the element to delete:";
-//         cin>>element;
-//         l.delete_element(element);
-//         break;
-//        case 6:
-//         l.delete_last();
-//         break;
-//        case 7:
-//         exit(0);
-//        default:
-//         cout<<"INVALID CHOICE!!"<<endl;
-//        }
-//        getch();
-//     }
-//     return 0;
-// }
-
-// int menu()
-// {
-//     int choice;
-//     cout<<"1.Insert at first"<<endl;
-//     cout<<"2.Insert after the element"<<endl;
-//     cout<<"3.Insert at last"<<endl;
-//     cout<<"4.Delete first"<<endl;
-//     cout<<"5.Delete element"<<endl;
-//     cout<<"6.Delete last"<<endl;
-//     cout<<"7.Exit"<<endl;
-//     cout<<"Enter your choice: "<<endl;
-//     cin>>choice;
-//     return choice;
-// }
-// void viewListData(linked_list &l)
-// {
-//     l.view_list_items();
-// }
